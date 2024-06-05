@@ -8,8 +8,8 @@ import (
 )
 
 func main() {
-	apiUrl := os.Getenv("BW_API_URL")
 	identityUrl := os.Getenv("BW_IDENTITY_URL")
+	apiUrl := os.Getenv("BW_API_URL")
 	accessToken := os.Getenv("BW_ACCESS_TOKEN")
 	organizationId := os.Getenv("BW_ORGANIZATION_ID")
 	projectId := os.Getenv("BW_PROJECT_ID")
