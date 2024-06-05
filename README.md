@@ -1,10 +1,11 @@
 # bw-sm-sdk-snippets
 
-This repository contains build instructions and example code for creating a secret in every supported language wrapper of the Bitwarden SDK.
+This repository contains basic code and instructions for creating a secret in various programming languages using the Bitwarden SDK.
 
 ## Languages
 
 - [Golang](./sdk-go/instructions.md)
+- [Rust](./sdk-rust/instructions.md)
 
 ## Environment Variables
 
