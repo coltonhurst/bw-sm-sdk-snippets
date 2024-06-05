@@ -4,7 +4,7 @@ This repository contains basic code and instructions for creating a secret in va
 
 ## Languages
 
-- [Golang](./sdk-go/instructions.md)
+- [Go](./sdk-go/instructions.md)
 - [Rust](./sdk-rust/instructions.md)
 
 ## Environment Variables
