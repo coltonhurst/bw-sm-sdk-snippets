@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "TgMkbqPKy6+/q8nzVnEdkvqd29V6oc5PuH5LCTTUT61Y2S3ivSL6qab5FOushKho8yxFQariVZ2G9Cs2LvYBrw==",
+  "success": true,
+  "projectFilePath": "/Users/coltonhurst/github/coltonhurst/bw-sm-sdk-snippets/sdk-cs/sdk-cs.csproj",
+  "expectedPackageFiles": [
+    "/Users/coltonhurst/.nuget/packages/bitwarden.sdk/0.0.1-alpha/bitwarden.sdk.0.0.1-alpha.nupkg.sha512",
+    "/Users/coltonhurst/.nuget/packages/system.text.encodings.web/7.0.0/system.text.encodings.web.7.0.0.nupkg.sha512",
+    "/Users/coltonhurst/.nuget/packages/system.text.json/7.0.3/system.text.json.7.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

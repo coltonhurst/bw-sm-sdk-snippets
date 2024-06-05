@@ -12,8 +12,8 @@ This repository contains basic code and instructions for creating a secret in va
 For the examples in this repository, we set the following environment variables:
 - `BW_IDENTITY_URL`
 - `BW_API_URL`
-- `BW_ACCESS_TOKEN`
 - `BW_ORGANIZATION_ID`
+- `BW_ACCESS_TOKEN`
 - `BW_PROJECT_ID`
 
 Here is an example script you can use:
@@ -23,8 +23,8 @@ Here is an example script you can use:
 
 export BW_IDENTITY_URL="https://identity.bitwarden.com"
 export BW_API_URL="https://api.bitwarden.com"
-export BW_ACCESS_TOKEN="<your-access-token-here>"
 export BW_ORGANIZATION_ID="<your-organization-id-here>"
+export BW_ACCESS_TOKEN="<your-access-token-here>"
 export BW_PROJECT_ID="<your-project-id-here>"
 ```
 

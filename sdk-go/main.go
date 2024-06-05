@@ -10,8 +10,8 @@ import (
 func main() {
 	identityUrl := os.Getenv("BW_IDENTITY_URL")
 	apiUrl := os.Getenv("BW_API_URL")
-	accessToken := os.Getenv("BW_ACCESS_TOKEN")
 	organizationId := os.Getenv("BW_ORGANIZATION_ID")
+	accessToken := os.Getenv("BW_ACCESS_TOKEN")
 	projectId := os.Getenv("BW_PROJECT_ID")
 
 	bitwardenClient, err := sdk.NewBitwardenClient(&apiUrl, &identityUrl)

@@ -9,9 +9,9 @@ use uuid::Uuid;
 async fn main() -> Result<(), Box<dyn std::error::Error>> {
     let identity_url = env::var("BW_IDENTITY_URL").unwrap();
     let api_url = env::var("BW_API_URL").unwrap();
-    let access_token = env::var("BW_ACCESS_TOKEN").unwrap();
     let organization_id =
         Uuid::parse_str(env::var("BW_ORGANIZATION_ID").unwrap().as_str()).unwrap();
+    let access_token = env::var("BW_ACCESS_TOKEN").unwrap();
     let project_id = Uuid::parse_str(env::var("BW_PROJECT_ID").unwrap().as_str()).unwrap();
 
     let mut client = Client::new(Some(ClientSettings {
