@@ -4,6 +4,7 @@ This repository contains basic code and instructions for creating a secret in va
 
 ## Languages
 
+- [C#](./sdk-cs/instructions.md)
 - [Go](./sdk-go/instructions.md)
 - [Rust](./sdk-rust/instructions.md)
 
