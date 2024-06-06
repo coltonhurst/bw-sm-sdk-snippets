@@ -20,7 +20,7 @@ For the examples in this repository, we set the following environment variables:
 Here is an example script you can use:
 
 ```bash
-#!/bin/bash
+#!/usr/bin/env bash
 
 export BW_IDENTITY_URL="https://identity.bitwarden.com"
 export BW_API_URL="https://api.bitwarden.com"
